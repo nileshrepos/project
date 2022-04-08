@@ -5,7 +5,7 @@ import Navbar from './component/Navbar';
 import Login from './pages/login';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Home from './pages/home';
-import Testimonial from './pages/testimonial';
+
 import Aim from './component/Aim';
 import AboutUs from './pages/aboutUs';
 
