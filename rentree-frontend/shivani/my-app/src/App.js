@@ -5,7 +5,11 @@ import Navbar from './component/Navbar';
 import Login from './pages/login';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Home from './pages/home';
+<<<<<<< HEAD
 // import Testimonial from './pages/testimonial';
+=======
+
+>>>>>>> fc46d0913ef9c7c1199a4e0dbc2d0647aa0b1785
 import Aim from './component/Aim';
 import AboutUs from './pages/aboutUs';
 import Registration from './pages/register';
