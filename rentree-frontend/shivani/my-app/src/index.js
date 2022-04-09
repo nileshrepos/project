@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // eslint-disable-next-line
 import "swiper/css/bundle";
 import "./Testimonial.css";
+import "./registration.css"
+import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
   <React.StrictMode>
