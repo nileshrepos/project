@@ -6,13 +6,13 @@ import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
 
-  const signupHandler = () => {
+  // const signupHandler = () => {
 
-    let history = useHistory();
+  //   let history = useHistory();
 
-    history.push('/login-section')
+  //   history.push('/login.jsx')
 
-  }
+  // }
 
 
  
@@ -54,8 +54,16 @@ const Navbar = () => {
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"  />
               <button className="btn btn-outline-success" type="submit">Search</button>
-              <button className="btn  btn-style" type="submit" onClick={signupHandler}>SignUp</button>
-              <button className="btn  btn-style btn-style-border" type="submit">LogIn</button>
+              {/* <button className="btn  btn-style" type="submit" onClick={signupHandler}>SignUp</button>
+              <button className="btn  btn-style btn-style-border" type="submit">LogIn</button> */}
+               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/register-section" style={{marginRight:"30px",backgroundColor:"aliceblue"}}>SignUp</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/login-section" style={{marginRight:"30px",backgroundColor:"aliceblue"}}>LogIn</a>
+              </li>
+            </ul>
             </form>
           </div>
         </div>

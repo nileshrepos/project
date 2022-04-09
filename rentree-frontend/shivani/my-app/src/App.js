@@ -5,9 +5,10 @@ import Navbar from './component/Navbar';
 import Login from './pages/login';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Home from './pages/home';
-import Testimonial from './pages/testimonial';
+// import Testimonial from './pages/testimonial';
 import Aim from './component/Aim';
 import AboutUs from './pages/aboutUs';
+import Registration from './pages/register';
 
 function App() {
   return (
@@ -55,6 +56,8 @@ function App() {
                  <Route path="/testimonial-section" exact element={<AboutUs />} />
                  <Route path="/aim-section" exact element={<AboutUs />} />
                  <Route path="/vision-section" exact element={<AboutUs />} />
+                 <Route path="/login-section" exact element={<Login />} />
+                 <Route path="/register-section" exact element={<Registration />} />
                   </Routes>
                   
                   {/*abb hummne define tho kardiya par jab isse fir bhi karvana hoga
