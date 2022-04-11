@@ -13,6 +13,7 @@ import Home from './pages/home';
 import Aim from './component/Aim';
 import AboutUs from './pages/aboutUs';
 import Registration from './pages/register';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
                  <Route path="/vision-section" exact element={<AboutUs />} />
                  <Route path="/login-section" exact element={<Login />} />
                  <Route path="/register-section" exact element={<Registration />} />
+		   <Route path="/cart-section" exact element={<Cart />} />
                   </Routes>
                   
                   {/*abb hummne define tho kardiya par jab isse fir bhi karvana hoga

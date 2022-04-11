@@ -33,7 +33,7 @@ return (
 		<Column>
 			<Heading>Services</Heading>
 			<FooterLink href="#">Purchase</FooterLink>
-			<FooterLink href="#">Renting</FooterLink>
+			<FooterLink href="/cart-section">Renting</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
